@@ -1,0 +1,129 @@
+.navbar {
+    display: flex;
+    background-color: white;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 200px;
+    margin-top: -20px;
+}
+
+.text {
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.btn button {
+    background-color: rgb(255, 182, 182);
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    border: 0px;
+    box-shadow: #333 0px 1px 5px;
+    margin-left: 45%;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+
+}
+
+.img_first img {
+    width: 100px;
+}
+
+.first_cart {
+    background-color: white;
+    width: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0 30px 0 30px;
+    margin: 80px;
+    border: none;
+}
+
+.second_cart {
+    background-color: white;
+    width: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0 30px 0 30px;
+    margin: 80px;
+    border: none;
+}
+
+.third_cart {
+    background-color: white;
+    width: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0 30px 0 30px;
+    margin: 80px;
+    border: none;
+}
+
+.heading {
+    margin-left: 45%;
+    color: white;
+    margin-top: 6.5%;
+    letter-spacing: 2px;
+}
+
+.container_first img {
+    width: 1430px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+}
+
+.container_first {
+    background-image: linear-gradient(to left, rgba(239, 233, 38, 0), rgb(255, 58, 189));
+    position: relative;
+    display: inline-block
+}
+
+.container_first .text_firstone {
+    position: absolute;
+    margin-top: 0 auto;
+    z-index: 999;
+    left: 100px;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 40%;
+    color: white;
+    justify-content: center;
+    background-color: rgb(240, 25, 9);
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.container_first .text_one {
+    margin-left: -250px;
+    font-weight: 900;
+}
+
+.container_second {
+    height: 800px;
+    margin-top: -8px;
+    background-image: linear-gradient(to left, rgba(237, 255, 44), rgb(255, 58, 189));
+}
+
+.cart {
+    display: flex;
+    text-align: center;
+    width: fit-content;
+    height: auto;
+    margin-left: 10%;
+}
+
+.box {
+    background-color: rgb(237, 255, 44);
+    background-image: linear-gradient(to left, rgba(239, 233, 38, 0), rgb(255, 58, 189));
+    height: 1030px;
+}
+
+.cart img {
+    margin: 10px;
+    width: 180px;
+    height: 150px;
+    border-radius: 0 30px 0 0;
+}
+
+.cart span {
+    font-weight: bold;
+}
